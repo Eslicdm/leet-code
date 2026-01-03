@@ -57,6 +57,7 @@ public class House {
         }
     }
 
+    // Static method to demonstrate usage
     public static void call() {
         House house = new House.Builder("Concrete", "Wood")
                 .setGarage(true)

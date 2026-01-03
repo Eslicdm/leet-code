@@ -1,9 +1,9 @@
 package com.eslirodrigues;
 
-import com.eslirodrigues.design_patterns.builder.House;
+import com.eslirodrigues.design_patterns.factory_method.Logistics;
 
 public class Main {
     public static void main(String[] args) {
-        House.call();
+        Logistics.call();
     }
 }
