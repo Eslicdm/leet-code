@@ -1,9 +1,9 @@
 package com.eslirodrigues;
 
-import com.eslirodrigues.design_patterns.factory_method.Logistics;
+import com.eslirodrigues.design_patterns.template_method.BeverageMaker;
 
 public class Main {
     public static void main(String[] args) {
-        Logistics.call();
+        BeverageMaker.call();
     }
 }
