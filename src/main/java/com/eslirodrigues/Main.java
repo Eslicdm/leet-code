@@ -1,9 +1,9 @@
 package com.eslirodrigues;
 
-import com.eslirodrigues.design_patterns.abstract_factory.FurnitureFactory;
+import com.eslirodrigues.design_patterns.singleton.Database;
 
 public class Main {
     public static void main(String[] args) {
-        FurnitureFactory.call();
+        Database.call();
     }
 }
