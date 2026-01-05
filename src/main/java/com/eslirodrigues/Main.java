@@ -1,9 +1,9 @@
 package com.eslirodrigues;
 
-import com.eslirodrigues.design_patterns.singleton.Database;
+import com.eslirodrigues.design_patterns.bridge.Remote;
 
 public class Main {
     public static void main(String[] args) {
-        Database.call();
+        Remote.call();
     }
 }
