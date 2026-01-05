@@ -1,9 +1,9 @@
 package com.eslirodrigues;
 
-import com.eslirodrigues.design_patterns.prototype.Shape;
+import com.eslirodrigues.design_patterns.abstract_factory.FurnitureFactory;
 
 public class Main {
     public static void main(String[] args) {
-        Shape.call();
+        FurnitureFactory.call();
     }
 }
