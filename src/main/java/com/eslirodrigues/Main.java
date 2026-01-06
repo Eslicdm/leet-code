@@ -1,9 +1,9 @@
 package com.eslirodrigues;
 
-import com.eslirodrigues.design_patterns.bridge.Remote;
+import com.eslirodrigues.design_patterns.adapter.RoundHole;
 
 public class Main {
     public static void main(String[] args) {
-        Remote.call();
+        RoundHole.call();
     }
 }
