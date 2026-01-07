@@ -1,9 +1,9 @@
 package com.eslirodrigues;
 
-import com.eslirodrigues.design_patterns.chain_of_responsibility.SupportHandler;
+import com.eslirodrigues.design_patterns.composite.FileSystemComponent;
 
 public class Main {
     public static void main(String[] args) {
-        SupportHandler.call();
+        FileSystemComponent.call();
     }
 }
