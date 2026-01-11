@@ -1,9 +1,9 @@
 package com.eslirodrigues;
 
-import com.eslirodrigues.design_patterns.memento.EditorApp;
+import com.eslirodrigues.design_patterns.iterator.IteratorApp;
 
 public class Main {
     public static void main(String[] args) {
-        EditorApp.call();
+        IteratorApp.call();
     }
 }
