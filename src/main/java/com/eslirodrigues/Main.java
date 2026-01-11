@@ -1,9 +1,9 @@
 package com.eslirodrigues;
 
-import com.eslirodrigues.design_patterns.iterator.IteratorApp;
+import com.eslirodrigues.design_patterns.visitor.VisitorApp;
 
 public class Main {
     public static void main(String[] args) {
-        IteratorApp.call();
+        VisitorApp.call();
     }
 }
