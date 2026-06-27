@@ -30,3 +30,4 @@ Retries can recover from transient failures, but unsafe retries can amplify over
 
 - [Timeouts](./timeouts.md)
 - [Circuit breaker](./circuit-breaker.md)
+- [Dead letter queue](../communication/dead-letter-queue.md)
