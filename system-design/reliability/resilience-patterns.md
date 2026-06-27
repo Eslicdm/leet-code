@@ -12,6 +12,7 @@ Resilience patterns combine timeouts, retries, circuit breakers, rate limits, bu
 | Client overload | [Rate limiter design](../design-problems/rate-limiter.md) |
 | Shared pool exhaustion | [Bulkheads](../fault-tolerance/bulkheads.md) |
 | System saturation | [Load shedding](../scalability/load-shedding.md) |
+| Permanently unprocessable messages | [Dead letter queue](../communication/dead-letter-queue.md) |
 
 ### When to Use
 

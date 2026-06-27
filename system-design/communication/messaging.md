@@ -26,3 +26,4 @@ Streams use an append-only log. Consumers track offsets and can replay historica
 
 - [Event-driven architecture](../architecture/event-driven.md)
 - [CQRS and event sourcing](../architecture/cqrs-event-sourcing.md)
+- [Dead letter queue](./dead-letter-queue.md)
