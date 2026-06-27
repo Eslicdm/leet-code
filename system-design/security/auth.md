@@ -27,4 +27,4 @@ Authentication verifies who a user or service is. Authorization decides what tha
 ### Related Topics
 
 - [API gateway](../communication/proxies-api-gateway.md)
-- [Rate limiting](../fault-tolerance/rate-limiting.md)
+- [Rate limiter design](../design-problems/rate-limiter.md)

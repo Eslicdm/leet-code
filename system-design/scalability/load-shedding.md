@@ -25,5 +25,5 @@ Load shedding intentionally rejects, delays, or degrades work when a system is o
 
 ### Related Topics
 
-- [Rate limiting](../fault-tolerance/rate-limiting.md)
+- [Rate limiter design](../design-problems/rate-limiter.md)
 - [Capacity planning](./capacity-planning.md)

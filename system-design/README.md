@@ -8,8 +8,8 @@ This folder is a practical, topic-focused reference for designing distributed sy
 | :-- | :-- |
 | [fundamentals/](./fundamentals/) | Core concepts: performance metrics, availability, CAP/PACELC, back-of-the-envelope estimation. |
 | [scalability/](./scalability/) | Vertical and horizontal scaling, load shedding, and capacity planning. |
-| [fault-tolerance/](./fault-tolerance/) | Resilience patterns: circuit breaker, rate limiting, retries, timeouts, bulkheads. |
-| [architecture/](./architecture/) | Monolith vs microservices, event-driven, CQRS, event sourcing, saga, outbox. |
+| [fault-tolerance/](./fault-tolerance/) | Resilience patterns: circuit breaker, retries, timeouts, bulkheads. |
+| [architecture/](./architecture/) | Monolith vs microservices, event-driven, CQRS, event sourcing, saga. |
 | [database/](./database/) | SQL vs NoSQL, replication, sharding, indexing, consistency models. |
 | [caching/](./caching/) | Cache-aside, write-through, write-around, write-back, eviction policies. |
 | [communication/](./communication/) | API protocols, load balancing, messaging, service discovery, CDN, proxies. |
@@ -42,5 +42,5 @@ A practical order for new readers:
 | Cache reads. | [Caching decision guide](./caching/README.md) |
 | Protect against failures. | [Fault tolerance decision guide](./fault-tolerance/README.md) |
 | Choose a service architecture. | [Monolith vs microservices](./architecture/monolith-vs-microservices.md) |
-| Coordinate multiple services. | [Saga and distributed transactions](./architecture/saga-and-distributed-transactions.md), [Outbox pattern](./architecture/outbox-pattern.md) |
+| Coordinate multiple services. | [Saga and distributed transactions](./architecture/saga-and-distributed-transactions.md) |
 | Operate a distributed system. | [Observability](./reliability/observability.md), [Disaster recovery](./reliability/disaster-recovery.md) |

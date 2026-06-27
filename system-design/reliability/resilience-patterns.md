@@ -9,7 +9,7 @@ Resilience patterns combine timeouts, retries, circuit breakers, rate limits, bu
 | Slow dependency | [Timeouts](../fault-tolerance/timeouts.md) |
 | Transient failure | [Retries, backoff, and jitter](../fault-tolerance/retries-backoff-jitter.md) |
 | Repeated failure | [Circuit breaker](../fault-tolerance/circuit-breaker.md) |
-| Client overload | [Rate limiting](../fault-tolerance/rate-limiting.md) |
+| Client overload | [Rate limiter design](../design-problems/rate-limiter.md) |
 | Shared pool exhaustion | [Bulkheads](../fault-tolerance/bulkheads.md) |
 | System saturation | [Load shedding](../scalability/load-shedding.md) |
 

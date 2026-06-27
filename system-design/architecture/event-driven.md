@@ -37,4 +37,3 @@ Event-driven architecture makes components communicate by producing and consumin
 
 - [Messaging](../communication/messaging.md)
 - [CQRS and event sourcing](./cqrs-event-sourcing.md)
-- [Outbox pattern](./outbox-pattern.md)

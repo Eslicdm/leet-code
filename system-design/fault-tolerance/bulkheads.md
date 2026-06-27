@@ -25,5 +25,5 @@ Bulkheads isolate resources so one failing dependency, tenant, or workload canno
 
 ### Related Topics
 
-- [Rate limiting](./rate-limiting.md)
+- [Rate limiter design](../design-problems/rate-limiter.md)
 - [Resilience patterns](../reliability/resilience-patterns.md)

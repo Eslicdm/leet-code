@@ -67,5 +67,4 @@ Microservices split an application into small, loosely coupled services. Each se
 ### Related Topics
 
 - [Saga and distributed transactions](./saga-and-distributed-transactions.md)
-- [Outbox pattern](./outbox-pattern.md)
 - [Observability](../reliability/observability.md)
