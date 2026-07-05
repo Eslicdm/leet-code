@@ -27,7 +27,7 @@ DynamoDB is a fully managed NoSQL key-value and document database that delivers 
 - The workload is highly relational with many joins and complex queries.
 - You need ad hoc SQL analytics over large datasets.
 - You need a strongly consistent multi-region database with serializable transactions (consider [Spanner](../../gcp/database/spanner.md)).
-- The access pattern is a simple cache; consider [ElastiCache](https://aws.amazon.com/elasticache/) or another cache.
+- The access pattern is a simple cache; consider [ElastiCache](./elasticache.md) or another cache.
 
 ### Pricing Model
 
@@ -54,5 +54,6 @@ DynamoDB is a fully managed NoSQL key-value and document database that delivers 
 - [RDS](./rds.md) for managed relational
 - [Aurora](./aurora.md) for managed relational with better performance
 - [S3](../storage/s3.md) for object storage and data lakes
+- [ElastiCache](./elasticache.md) for in-memory caching
 - [System design: leaderless replication](../../../system-design/database/replication/leaderless.md)
 - [System design: SQL vs NoSQL](../../../system-design/database/sql-vs-nosql.md)

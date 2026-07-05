@@ -27,7 +27,7 @@ Azure Cosmos DB is a globally distributed, multi-model NoSQL database. It offers
 
 - You need a strong SQL Server with relational features (use [SQL Database](./sql-database.md)).
 - You need an open-source relational engine such as PostgreSQL or MySQL.
-- You need a simple key-value cache (use Azure Cache for Redis).
+- You need a simple key-value cache (use [Azure Cache for Redis](./azure-cache-for-redis.md)).
 - You do not need global distribution and want a cheaper regional option.
 
 ### Pricing Model
@@ -53,5 +53,6 @@ Azure Cosmos DB is a globally distributed, multi-model NoSQL database. It offers
 - [SQL Database](./sql-database.md) for SQL Server workloads
 - [Functions](../compute/functions.md) and [Container Apps](../compute/container-apps.md) for event handlers
 - [Blob Storage](../storage/blob-storage.md) for large blobs
+- [Azure Cache for Redis](./azure-cache-for-redis.md) for in-memory caching
 - [System design: SQL vs NoSQL](../../../system-design/database/sql-vs-nosql.md)
 - [System design: consistency models](../../../system-design/database/consistency-models.md)

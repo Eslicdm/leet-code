@@ -26,7 +26,7 @@ Cloud SQL is the GCP managed relational database service for PostgreSQL, MySQL, 
 - You need a globally distributed relational database with external consistency (use [Spanner](./spanner.md)).
 - You need a NoSQL document store with realtime sync (use [Firestore](./firestore.md)).
 - You need a fully serverless data warehouse (use [BigQuery](./bigquery.md)).
-- You need a wide-column store for huge analytical workloads (consider [Bigtable](https://cloud.google.com/bigtable)).
+- You need a wide-column store for huge analytical workloads (consider [Bigtable](./bigtable.md)).
 
 ### Pricing Model
 
@@ -51,5 +51,7 @@ Cloud SQL is the GCP managed relational database service for PostgreSQL, MySQL, 
 - [Spanner](./spanner.md) for global relational
 - [Firestore](./firestore.md) for NoSQL
 - [BigQuery](./bigquery.md) for analytics
+- [Bigtable](./bigtable.md) for wide-column NoSQL
+- [Memorystore](./memorystore.md) for in-memory caching
 - [Cloud Run](../compute/cloud-run.md) and [GKE](../compute/gke.md) for application compute
 - [System design: SQL vs NoSQL](../../../system-design/database/sql-vs-nosql.md)

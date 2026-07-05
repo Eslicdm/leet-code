@@ -9,6 +9,7 @@ Database services cover managed relational, NoSQL, and data warehouse engines.
 | Run a managed relational database (MySQL, PostgreSQL, SQL Server, Oracle). | [RDS](./rds.md) |
 | Run a high-performance AWS-native relational engine. | [Aurora](./aurora.md) |
 | Run a managed NoSQL key-value store with single-digit millisecond latency. | [DynamoDB](./dynamodb.md) |
+| Cache data in memory for sub-millisecond reads. | [ElastiCache](./elasticache.md) |
 
 ### When to Use AWS Database
 

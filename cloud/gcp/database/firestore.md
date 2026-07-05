@@ -24,8 +24,8 @@ Firestore is a serverless, document-oriented NoSQL database. It offers realtime 
 ### When Not to Use
 
 - You need a relational database with joins and SQL (use [Cloud SQL](./cloud-sql.md) or [Spanner](./spanner.md)).
-- You need a key-value store with single-digit millisecond latency at high scale (use [Memorystore](https://cloud.google.com/memorystore) for Redis).
-- You need a wide-column store for huge analytical workloads (consider [Bigtable](https://cloud.google.com/bigtable)).
+- You need a key-value store with single-digit millisecond latency at high scale (use [Memorystore](./memorystore.md) for Redis).
+- You need a wide-column store for huge analytical workloads (consider [Bigtable](./bigtable.md)).
 - You need cross-document transactional queries over many entities (Firestore transactions are limited to 500 documents).
 
 ### Pricing Model
@@ -52,4 +52,6 @@ Firestore is a serverless, document-oriented NoSQL database. It offers realtime 
 - [Spanner](./spanner.md) for global relational
 - [BigQuery](./bigquery.md) for analytics over Firestore data
 - [Cloud Storage](../storage/cloud-storage.md) for large blobs
+- [Bigtable](./bigtable.md) for wide-column NoSQL
+- [Memorystore](./memorystore.md) for in-memory caching
 - [System design: SQL vs NoSQL](../../../system-design/database/sql-vs-nosql.md)

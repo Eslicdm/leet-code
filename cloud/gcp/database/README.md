@@ -9,6 +9,8 @@ Database services cover managed relational, NoSQL, globally distributed, and dat
 | Run a managed relational database (PostgreSQL, MySQL, SQL Server). | [Cloud SQL](./cloud-sql.md) |
 | Run a globally distributed relational database with strong external consistency. | [Spanner](./spanner.md) |
 | Run a managed NoSQL document store with realtime sync. | [Firestore](./firestore.md) |
+| Run a wide-column store for huge analytical workloads. | [Bigtable](./bigtable.md) |
+| Cache data in memory for sub-millisecond reads. | [Memorystore](./memorystore.md) |
 | Run a serverless data warehouse. | [BigQuery](./bigquery.md) |
 
 ### When to Use GCP Database

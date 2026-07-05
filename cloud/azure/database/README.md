@@ -8,6 +8,7 @@ Database services cover managed relational, NoSQL, and analytics engines.
 | :-- | :-- |
 | Run a managed SQL Server database. | [SQL Database](./sql-database.md) |
 | Run a globally distributed multi-model NoSQL store. | [Cosmos DB](./cosmos-db.md) |
+| Cache data in memory for sub-millisecond reads. | [Azure Cache for Redis](./azure-cache-for-redis.md) |
 
 ### When to Use Azure Database
 
