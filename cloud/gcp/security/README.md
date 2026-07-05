@@ -8,6 +8,7 @@ Security services cover identity, secrets, encryption, and threat detection.
 | :-- | :-- |
 | Manage identities, roles, and policies. | [IAM](./iam.md) |
 | Store and version secrets with fine-grained access. | [Secret Manager](./secret-manager.md) |
+| Enforce identity-based access to applications without a VPN. | [Identity-Aware Proxy](./identity-aware-proxy.md) |
 
 ### When to Use GCP Security
 

@@ -8,6 +8,7 @@ Security services cover identity, secrets, encryption, and threat protection.
 | :-- | :-- |
 | Manage identities, roles, and policies. | [IAM](./iam.md) |
 | Store and rotate database credentials, API keys, and other secrets. | [Secrets Manager](./secrets-manager.md) |
+| Protect web applications from exploits and bots. | [WAF](./waf.md) |
 
 ### When to Use AWS Security
 

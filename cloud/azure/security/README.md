@@ -8,6 +8,8 @@ Security services cover identity, secrets, key management, and threat protection
 | :-- | :-- |
 | Manage identities, roles, and conditional access. | [Entra ID](./entra-id.md) |
 | Store and manage secrets, keys, and certificates. | [Key Vault](./key-vault.md) |
+| Protect against advanced DDoS attacks with cost protection. | [DDoS Protection](./ddos-protection.md) |
+| Protect web applications from web exploits. | [Application Gateway WAF](./application-gateway-waf.md) |
 
 ### When to Use Azure Security
 
