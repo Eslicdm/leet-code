@@ -51,4 +51,4 @@ Glue is a serverless data integration and ETL service. It discovers, prepares, m
 - [Athena](./athena.md) for querying catalog data
 - [Kinesis](./kinesis.md) for streaming ingestion
 - [S3](../storage/s3.md) for data lake storage
-- [Redshift](https://aws.amazon.com/redshift/) for data warehousing
+- [Redshift](./redshift.md) for data warehousing

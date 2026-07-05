@@ -24,7 +24,7 @@ Kinesis makes it easy to collect, process, and analyze real-time streaming data 
 
 - The workload is batch-oriented (use [Athena](./athena.md) or [Glue](./glue.md)).
 - You want a managed message queue for decoupled services (use [SQS](../messaging/sqs.md)).
-- You need guaranteed ordering with exactly-once processing and complex routing (consider [MSK](https://aws.amazon.com/msk/) for self-managed Kafka).
+- You need guaranteed ordering with exactly-once processing and complex routing (consider [MSK](../messaging/msk.md) for managed Kafka).
 
 ### Pricing Model
 
@@ -51,4 +51,5 @@ Kinesis makes it easy to collect, process, and analyze real-time streaming data 
 - [Glue](./glue.md) for ETL
 - [Lambda](../compute/lambda.md) for stream processing
 - [SQS](../messaging/sqs.md) for decoupled messaging
+- [MSK](../messaging/msk.md) for managed Kafka
 - [System design: event-driven](../../../system-design/architecture/event-driven.md)

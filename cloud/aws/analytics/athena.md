@@ -22,7 +22,7 @@ Athena is a serverless interactive query service that lets you analyze data in S
 
 ### When Not to Use
 
-- You need sub-second query latency on large datasets (use [Redshift](https://aws.amazon.com/redshift/) or a dedicated warehouse).
+- You need sub-second query latency on large datasets (use [Redshift](./redshift.md) or a dedicated warehouse).
 - You need to run continuous streaming analytics (use [Kinesis](./kinesis.md)).
 - You need to run very large ETL jobs regularly (use [Glue](./glue.md) or EMR).
 
@@ -47,6 +47,7 @@ Athena is a serverless interactive query service that lets you analyze data in S
 ### Related
 
 - [Kinesis](./kinesis.md) for streaming analytics
+- [Redshift](./redshift.md) for data warehousing
 - [Glue](./glue.md) for ETL and data catalog
 - [S3](../storage/s3.md) for data lake storage
 - [DynamoDB](../database/dynamodb.md) for source data
