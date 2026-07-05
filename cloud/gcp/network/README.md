@@ -9,6 +9,8 @@ Network services cover private networks, load balancing, content delivery, and D
 | Build a private network with subnets, routing, and firewall rules. | [VPC](./vpc.md) |
 | Distribute traffic across regions with managed L4 and L7 load balancers. | [Cloud Load Balancing](./cloud-load-balancing.md) |
 | Cache and deliver content at the edge. | [Cloud CDN](./cloud-cdn.md) |
+| Manage DNS for domains and route traffic globally. | [Cloud DNS](./cloud-dns.md) |
+| Protect web applications from exploits and DDoS. | [Cloud Armor](./cloud-armor.md) |
 
 ### When to Use GCP Network
 

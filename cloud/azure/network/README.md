@@ -9,6 +9,8 @@ Network services cover private networks, load balancing, content delivery, and D
 | Build a private network with subnets, routing, and NSGs. | [Virtual Network](./virtual-network.md) |
 | Distribute traffic with a managed L4 load balancer. | [Load Balancer](./load-balancer.md) |
 | Route global traffic with a managed L7 entry point and WAF. | [Front Door](./front-door.md) |
+| Manage DNS for domains hosted on Azure. | [Azure DNS](./azure-dns.md) |
+| Load balance HTTP traffic with URL routing and WAF. | [Application Gateway](./application-gateway.md) |
 
 ### When to Use Azure Network
 
