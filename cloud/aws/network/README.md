@@ -10,7 +10,7 @@ Network services cover private networks, content delivery, DNS, and public-facin
 | Cache and deliver content at the edge. | [CloudFront](./cloudfront.md) |
 | Expose a managed HTTP API or WebSocket endpoint. | [API Gateway](./api-gateway.md) |
 | Manage DNS for domains and route traffic globally. | [Route 53](./route-53.md) |
-| Protect web applications from exploits and DDoS. | [WAF and Shield](./cloud-armor.md) |
+| Protect web applications from exploits and DDoS. | [WAF and Shield](./waf.md) |
 
 ### When to Use AWS Network
 

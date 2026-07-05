@@ -23,7 +23,7 @@ AWS WAF is a managed web application firewall that lets you create rules to filt
 
 ### When Not to Use
 
-- You need network-level DDoS protection (use [Shield](../network/cloud-armor.md)).
+- You need network-level DDoS protection (use [Shield](../network/waf.md)).
 - Your application is not exposed to HTTP/HTTPS.
 - You need deep packet inspection for non-HTTP protocols (use Network Firewall).
 
