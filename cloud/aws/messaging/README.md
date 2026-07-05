@@ -9,6 +9,8 @@ Messaging services cover queues, pub/sub topics, and event buses that connect di
 | Decouple producers and consumers with a simple queue. | [SQS](./sqs.md) |
 | Fan out notifications to many subscribers. | [SNS](./sns.md) |
 | Route events between AWS services and SaaS applications. | [EventBridge](./eventbridge.md) |
+| Run a managed Apache Kafka cluster. | [MSK](./msk.md) |
+| Run a managed ActiveMQ or RabbitMQ broker. | [Amazon MQ](./amazon-mq.md) |
 
 ### When to Use AWS Messaging
 

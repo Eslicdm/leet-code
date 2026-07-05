@@ -8,6 +8,7 @@ Messaging services cover queues, topics, and event buses that connect distribute
 | :-- | :-- |
 | Reliable enterprise messaging with queues, topics, and transactions. | [Service Bus](./service-bus.md) |
 | Lightweight event routing with reactive pub/sub. | [Event Grid](./event-grid.md) |
+| Ingest millions of events per second (Kafka compatible). | [Event Hubs](./event-hubs.md) |
 
 ### When to Use Azure Messaging
 
