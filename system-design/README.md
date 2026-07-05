@@ -16,6 +16,7 @@ This folder is a practical, topic-focused reference for designing distributed sy
 | [reliability/](./reliability/) | Observability, disaster recovery, and resilience checklists. |
 | [security/](./security/) | Authentication, authorization, OAuth2, JWT, sessions. |
 | [design-problems/](./design-problems/) | End-to-end applied designs: URL shortener, rate limiter, news feed, chat. |
+| [devops/](./devops/) | Git branching strategies, semantic versioning, environment promotion. |
 
 ### Learning Path
 
@@ -42,5 +43,6 @@ A practical order for new readers:
 | Cache reads. | [Caching decision guide](./caching/README.md) |
 | Protect against failures. | [Fault tolerance decision guide](./fault-tolerance/README.md) |
 | Choose a service architecture. | [Monolith vs microservices](./architecture/monolith-vs-microservices.md) |
+| Structure Git workflows and releases. | [Git branching strategies](./devops/README.md) |
 | Coordinate multiple services. | [Saga and distributed transactions](./architecture/saga-and-distributed-transactions.md) |
 | Operate a distributed system. | [Observability](./reliability/observability.md), [Disaster recovery](./reliability/disaster-recovery.md) |
