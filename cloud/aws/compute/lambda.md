@@ -49,5 +49,5 @@ Lambda runs your code in response to events without provisioning or managing ser
 
 - [API Gateway](../network/api-gateway.md) for HTTP triggers
 - [SQS](../messaging/sqs.md) and [EventBridge](../messaging/eventbridge.md) for async triggers
-- [Step Functions](https://aws.amazon.com/step-functions/) for orchestration
+- [Step Functions](../serverless/step-functions.md) for orchestration
 - [System design: serverless and event-driven](../../../system-design/architecture/event-driven.md)
