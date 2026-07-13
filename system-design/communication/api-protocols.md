@@ -10,6 +10,7 @@ API protocol decisions affect latency, payload size, browser compatibility, cach
 | GraphQL | Client-defined queries and mobile bandwidth efficiency. | Harder server implementation and caching. |
 | gRPC | Low-latency service-to-service calls. | Browser support and debugging are harder. |
 | WebSockets | Bidirectional real-time communication. | Stateful connections are harder to scale. |
+| SSE | Server→client streaming over HTTP. | Text only, unidirectional. |
 
 ### When to Use
 
@@ -17,8 +18,10 @@ API protocol decisions affect latency, payload size, browser compatibility, cach
 - Use `GraphQL` when clients need flexible nested data.
 - Use `gRPC` for internal high-performance RPC.
 - Use `WebSockets` for chat, gaming, and real-time dashboards.
+- Use `SSE` for server→client streaming: live feeds, notifications, LLM token streaming.
 
 ### Related Topics
 
+- [Server-Sent Events](./server-sent-events.md) for server→client streaming
 - [Load balancing](./load-balancing.md)
 - [Chat system](../design-problems/chat-system.md)
